@@ -39,10 +39,24 @@ nav ul li a{
   text-decoration: none;
 }
 
+nav ul li a:hover{
+  color:rgb(6, 255, 151);
+}
+
 .condiv{
   padding: 100px;
   background-color: #f4f5f9;
   flex: var(--condiv-flex);
+
+}
+
+.condiv a{
+  text-decoration: none;
+  color: black;
+}
+
+.condiv a:hover{
+  color: rgb(65, 65, 65);
 }
 
 .home{
@@ -106,4 +120,20 @@ p{
   color:#fff;
   background: #333;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.skills ul{
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.skills ul li{
+  list-style: none;
+  margin: 30px;
+}
+
+.active {
+  font-weight: bolder;
 }
